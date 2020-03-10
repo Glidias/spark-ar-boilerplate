@@ -25,7 +25,7 @@ Updated for 2020 Spark AR. Cleaned up all files and simplified approach to run .
 
 ### Production
 - run `npm run build`
-- this just runs the build once and outputs a minified file of `script.js`
+- this just runs the build once and outputs a minified file of `/scripts/script.js`
 
 ## TSConfig customisation notes:
 
