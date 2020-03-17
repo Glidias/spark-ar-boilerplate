@@ -1,12 +1,12 @@
 {
-  "name": "sparkTest",
+  "name": "spark-ar-boilerplate-webpack",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --mode production",
-    "dev": "webpack --watch --mode production"
+    "dev": "concurrently \"node modify-tsconfig.js\" \"webpack --watch --mode production\""
   },
   "keywords": [],
   "author": "",
@@ -14,9 +14,9 @@
   "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.5",
+    "concurrently": "^5.1.0",
+    "webpack": "^4.42.0",
     "webpack-cli": "^3.3.2"
   },
-  "dependencies": {
-    "webpack": "^4.31.0"
-  }
+  "dependencies": {}
 }
